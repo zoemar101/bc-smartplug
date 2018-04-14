@@ -1,0 +1,73 @@
+/* ITEMS Styles */
+.border-box {
+    padding: 20px;
+    border: solid #20394e;
+}
+.item-search {
+    width:auto;
+    padding: 5px;
+}
+
+.table-fixed {
+    display: block;
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+
+}
+
+td {
+    cursor: pointer;
+}
+.selected {
+    background-color: brown;
+    color: #ffffff;
+}
+.button-1 {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #20394e;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=search] {
+    width: auto;
+    padding: 2px 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.modal-add-item {
+    width: 100%;
+}
+
+/* Account styles */
+
+.border-box2 {
+    padding: 20px;
+    border-left: solid blue;
+
+}
+
+.inputfield-size {
+    width: 70%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.block label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+.border-box3 {
+    padding: 20px;
+    border-left: solid blue;
+    background-color: #ffffff;
+}

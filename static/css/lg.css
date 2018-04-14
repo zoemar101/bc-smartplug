@@ -1,0 +1,29 @@
+.login-side {
+    background: #ffffff;
+    padding-top:    50px ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.margin-logo {
+    margin-top: 25px;
+
+}
+
+.text-margin1 {
+    margin-top: 10px;
+    font: 20px 'Colonna MT';
+}
+
+.login-field-size {
+    width: 250px;
+}
+
+body {
+    background: url("../img/bg-login.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font: 15px 'open sans';
+    color: #000000;
+}
