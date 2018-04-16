@@ -19,29 +19,79 @@
 </head>
 <body>
 
-<div id="header">
-<nav  class="navbar navbar-default " style="color: #000000">
+
+<div>
+          <!-- Sidebar -->
+        <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <br>
+                <li class="sidebarstyle" style="font-family: Lato; font-size: 24px">
+                   <a> MENU </a>
+                </li>
+                <li class="active sidebar-brand">
+                   <a href="/dashboard/request"><img src="../static/img/plug1.png" height="40px" width="40px" ><span style="margin-left: 10px">Plugs</span>  </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="/dashboard/items"><img src="../static/img/user.png" height="40px" width="40px" ><span style="margin-left: 10px">Profile</span></a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="/dashboard/logs"><img src="../static/img/logs1.png" height="40px" width="40px" ><span style="margin-left: 10px">LOGS</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+            <div id="header">
+<nav class="navbar navbar-default nav1" style="color: #000000 ; ">
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="row" style="padding-top: 18px " >
-            <div class="col-md-1"><div style="padding-top:5px; padding-left: 25px; padding-right: 35px"><span style="font-size:25px;cursor:pointer" onclick="openNav()" class="border border-secondary">&#9776;</span></div></div>
-        <div class="col-md-8 fa-2x"><b>BLOCKCHAIN:</b> SmartPlug </div>
-        <div
-        </div>
-        <div id="main" class="row">
-            <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">PLUG</a>
-            <a href="#">USER</a>
-            <a href="#">LOGS</a>
-            <a href="#"></a>
-        </div>
-        </div>
-    </nav>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a  style="color: #000000; padding-top: 23px" class="navbar-brand glyphicon glyphicon-menu-hamburger fa-2x" href="#menu-toggle" id="menu-toggle" ></a>
 
+      <div id="titleB" class="navbar-left nav1-text" style="color: #000000">
+           <div style="padding-top: 10px"><b>BLOCKCHAIN:</b> <span style="font-weight: lighter">SmartPlug System</span></div>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right" >
+        <li>
+        <li class="dropdown" style="background-color: #49c5b6;">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="../static/img/business-person-icon.png" height="40x" width="40px"> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/logout">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-
 </nav>
+</div><div id="header">
 </div>
+        <!-- content -->
+</div>
+</div>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </body>
 </html>
