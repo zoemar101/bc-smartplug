@@ -308,6 +308,19 @@ def consensus():
     return jsonify(response), 200
 
 
+#Load template
+@app.route('/dashboard/device')
+def device():
+    return render_template('device.html')
+
+@app.route('/dashboard/logs')
+def logs():
+    return render_template('logs.html')
+
+@app.route('/dashboard/profile')
+def profile():
+    return render_template('profile.html')
+
 if __name__ == '__main__':
     from argparse import ArgumentParser
 

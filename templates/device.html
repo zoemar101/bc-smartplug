@@ -1,0 +1,79 @@
+{% extends "smartplugui.html" %}
+{% block device%}
+<link type="text/css" href="{{ url_for('static', filename='css/device-style.css') }}" rel="stylesheet">
+<script type="text/javascript" src="../static/js/features/device-js.js"></script>
+    <div id="devices" class="request-page-def ">
+        <div class="row device-header">
+            <div class="col-md-2">Smart Plug Devices</div>
+
+        </div>
+        <div class="row">
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:<span id="status"></span></div>
+            <label style="margin-left: 180px" class="switch">
+                <input id="change-stat" type="checkbox" data-toggle="toggle" onclick="alert('Function here')">
+                 <span class="slider"></span>
+            </label>
+
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        <div class=" col-md-2 device-content">
+            <div><b>DEVICE 1</b></div>
+            <div>STATUS:</div>
+            <label style="margin-left: 180px" class="switch">
+                <input type="checkbox">
+                 <span class="slider"></span>
+            </label>
+        </div>
+        </div>
+    </div>
+
+{% endblock %}

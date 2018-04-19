@@ -32,10 +32,10 @@
                    <a> MENU </a>
                 </li>
                 <li class="active sidebar-brand">
-                   <a href="/dashboard/request"><img src="../static/img/plug1.png" height="40px" width="40px" ><span style="margin-left: 10px">Plugs</span>  </a>
+                   <a href="/dashboard/device"><img src="../static/img/plug1.png" height="40px" width="40px" ><span style="margin-left: 10px">Plugs</span>  </a>
                 </li>
                 <li class="sidebar-brand">
-                    <a href="/dashboard/items"><img src="../static/img/user.png" height="40px" width="40px" ><span style="margin-left: 10px">Profile</span></a>
+                    <a href="/dashboard/profile"><img src="../static/img/user.png" height="40px" width="40px" ><span style="margin-left: 10px">Profile</span></a>
                 </li>
                 <li class="sidebar-brand">
                     <a href="/dashboard/logs"><img src="../static/img/logs1.png" height="40px" width="40px" ><span style="margin-left: 10px">LOGS</span></a>
@@ -57,7 +57,7 @@
       <a  style="color: #000000; padding-top: 23px" class="navbar-brand glyphicon glyphicon-menu-hamburger fa-2x" href="#menu-toggle" id="menu-toggle" ></a>
 
       <div id="titleB" class="navbar-left nav1-text" style="color: #000000">
-           <div style="padding-top: 10px"><b>BLOCKCHAIN:</b> <span style="font-weight: lighter">SmartPlug System</span></div>
+           <div style="padding-top: 10px; font-family: 'Ubuntu'; font-size: 20px"><b>BLOCKCHAIN:</b> <span style="font-weight: lighter">SmartPlug System</span></div>
       </div>
     </div>
 
@@ -84,6 +84,12 @@
 </div><div id="header">
 </div>
         <!-- content -->
+        {% block device %}
+         {%endblock %}
+         {% block logs %}
+         {%endblock %}
+         {% block profile %}
+         {%endblock %}
 </div>
 </div>
     <!-- Menu Toggle Script -->
