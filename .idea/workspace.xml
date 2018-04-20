@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/smartplug$smartplug.coverage" NAME="smartplug Coverage Results" MODIFIED="1524118616689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/smartplug$smartplug.coverage" NAME="smartplug Coverage Results" MODIFIED="1524211995231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="smartplug.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smartplug.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartplug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4795" max-vertical-offset="5763">
-              <caret line="296" column="16" selection-start-line="296" selection-start-column="16" selection-end-line="296" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.7513812" vertical-offset="1734" max-vertical-offset="5763">
+              <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
               <folding>
                 <element signature="e#33#47#0" expanded="true" />
               </folding>
@@ -43,11 +43,9 @@
       <file leaf-file-name="smartplugui.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/smartplugui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.115385" vertical-offset="261" max-vertical-offset="1836">
-              <caret line="40" column="122" selection-start-line="40" selection-start-column="122" selection-end-line="40" selection-end-column="122" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1836">
+              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="device.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/device.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1179883" vertical-offset="816" max-vertical-offset="1428">
-              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="102" max-vertical-offset="1683">
+              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -75,8 +73,8 @@
       <file leaf-file-name="device-js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/features/device-js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#55#0" expanded="false" />
               </folding>
@@ -87,8 +85,8 @@
       <file leaf-file-name="logs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/logs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-              <caret line="10" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
+            <state vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="850">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -97,8 +95,8 @@
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
+              <caret line="10" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -107,8 +105,8 @@
       <file leaf-file-name="device-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/device-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="698" max-vertical-offset="1241">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1530">
+              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -124,11 +122,11 @@
         <option value="$PROJECT_DIR$/static/css/dashboard.css" />
         <option value="$PROJECT_DIR$/static/css/dash.css" />
         <option value="$PROJECT_DIR$/static/css/plugin/simple-sidebar.css" />
-        <option value="$PROJECT_DIR$/templates/logs.html" />
         <option value="$PROJECT_DIR$/smartplug.py" />
         <option value="$PROJECT_DIR$/templates/smartplugui.html" />
-        <option value="$PROJECT_DIR$/templates/profile.html" />
+        <option value="$PROJECT_DIR$/templates/logs.html" />
         <option value="$PROJECT_DIR$/static/css/device-style.css" />
+        <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/templates/device.html" />
         <option value="$PROJECT_DIR$/static/js/features/device-js.js" />
       </list>
@@ -600,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="3927">
           <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="2312">
           <caret line="114" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,9 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1734">
           <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3927">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="2312">
           <caret line="114" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,9 +660,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1734">
           <caret line="28" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -710,9 +700,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="884">
           <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,9 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,9 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,9 +804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,9 +829,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1478" max-vertical-offset="3927">
           <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,17 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="2312">
           <caret line="114" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartplug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4795" max-vertical-offset="5763">
-          <caret line="296" column="16" selection-start-line="296" selection-start-column="16" selection-end-line="296" selection-end-column="16" />
-          <folding>
-            <element signature="e#33#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,55 +925,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/device-style.css">
+    <entry file="file://$PROJECT_DIR$/templates/smartplugui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="698" max-vertical-offset="1241">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1836">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
+          <caret line="10" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/logs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
+        <state vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="850">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/smartplugui.html">
+    <entry file="file://$PROJECT_DIR$/templates/device.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.115385" vertical-offset="261" max-vertical-offset="1836">
-          <caret line="40" column="122" selection-start-line="40" selection-start-column="122" selection-end-line="40" selection-end-column="122" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="102" max-vertical-offset="1683">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/device-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1530">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/features/device-js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/device.html">
+    <entry file="file://$PROJECT_DIR$/smartplug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1179883" vertical-offset="816" max-vertical-offset="1428">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
-          <folding />
+        <state vertical-scroll-proportion="0.7513812" vertical-offset="1734" max-vertical-offset="5763">
+          <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+          <folding>
+            <element signature="e#33#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
